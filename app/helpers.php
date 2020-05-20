@@ -136,3 +136,16 @@ function display_sidebar()
     isset($display) || $display = apply_filters('sage/display_sidebar', false);
     return $display;
 }
+
+
+if (!function_exists('var_die')) {
+    /**
+     * @param $data
+     */
+    function var_die($data ) {
+        echo '<pre>';
+        var_dump( $data );
+        echo '</pre>';
+        die;
+    }
+}

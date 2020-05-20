@@ -1,0 +1,32 @@
+body {
+  font-family: $main-font-family;
+  font-style: normal;
+  font-weight: normal;
+  color: $dark;
+
+  h1,
+  .h1 {}
+
+  h2,
+  .h2 {}
+
+  h3,
+  .h3 {}
+
+  h4,
+  .h4 {}
+
+  h5,
+  .h5 {}
+
+  h6,
+  .h6 { }
+
+  small,
+  .small {}
+
+  a {
+
+    &:hover {}
+  }
+}
